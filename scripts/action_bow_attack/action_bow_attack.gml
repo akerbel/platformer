@@ -4,8 +4,8 @@ function action_bow_attack(enemy){
 	with (enemy) {
 		state = states.attack;
 		var arrow = instance_create_layer(
-			phy_position_x + lengthdir_x(sprite_width, image_angle), 
-			phy_position_y + lengthdir_y(sprite_height, image_angle), 
+			x + lengthdir_x(sprite_width /2, image_angle), 
+			y + lengthdir_y(sprite_height /2, image_angle), 
 			"Instances", 
 			obj_arrow
 		);

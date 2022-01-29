@@ -11,7 +11,7 @@
     "name": "obj_enemy",
     "path": "objects/obj_enemy/obj_enemy.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -32,7 +32,9 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"speed_walk","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Enemy",
     "path": "folders/Objects/Character/Enemy.yy",

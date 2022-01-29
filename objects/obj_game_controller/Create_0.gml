@@ -10,4 +10,6 @@ enum states {
 	dead
 }
 
+
+global.gravity = 0.2;
 global.lives = 3;

@@ -8,7 +8,7 @@
     "name": "obj_character",
     "path": "objects/obj_character/obj_character.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,

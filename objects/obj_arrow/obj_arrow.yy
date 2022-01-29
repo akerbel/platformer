@@ -11,7 +11,7 @@
     "name": "obj_throwable",
     "path": "objects/obj_throwable/obj_throwable.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Throwable",
-    "path": "folders/Objects/Character/Item/Throwable.yy",
+    "path": "folders/Objects/Item/Throwable.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_arrow",
