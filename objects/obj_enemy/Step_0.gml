@@ -3,4 +3,12 @@
 // Inherit the parent event
 event_inherited();
 
-script_execute(behavior, self, action, actionPause);
+if (state != states.damaged) {
+	script_execute(behavior, self, action, actionPause);
+}
+
+
+// Show falling sprite
+if ((state == states.jump) && (vertical_speed > 0)) {
+	state = states.fall;
+}

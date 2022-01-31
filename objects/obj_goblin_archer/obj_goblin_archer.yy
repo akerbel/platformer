@@ -36,8 +36,8 @@
     {"propertyId":{"name":"speed_walk","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Character/Enemy.yy",
+    "name": "Goblins",
+    "path": "folders/Objects/Character/Enemy/Goblins.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_goblin_archer",

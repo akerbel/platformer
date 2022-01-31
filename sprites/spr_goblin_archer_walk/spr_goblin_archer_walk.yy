@@ -90,7 +90,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Goblin Archer",
-    "path": "folders/Sprites/Character/Goblin Archer.yy",
+    "path": "folders/Sprites/Character/Goblins/Goblin Archer.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_goblin_archer_walk",

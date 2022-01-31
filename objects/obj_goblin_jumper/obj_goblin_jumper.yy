@@ -1,0 +1,46 @@
+{
+  "spriteId": {
+    "name": "spr_goblin_jumper_idle",
+    "path": "sprites/spr_goblin_jumper_idle/spr_goblin_jumper_idle.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_enemy",
+    "path": "objects/obj_enemy/obj_enemy.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":1.0,"y":0.0,},
+    {"x":14.0,"y":0.0,},
+    {"x":14.0,"y":16.0,},
+    {"x":1.0,"y":16.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"speed_walk","path":"objects/obj_character/obj_character.yy",},"objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Goblins",
+    "path": "folders/Objects/Character/Enemy/Goblins.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_goblin_jumper",
+  "tags": [],
+  "resourceType": "GMObject",
+}

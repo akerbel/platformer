@@ -9,7 +9,8 @@ function moving_with_action(enemy, action = action_idle, pause = 120){
 			!actionInProgress && 
 			(floor(x) == floor(path_get_point_x(path_index, 1)))
 		) {
-			path_speed = 0;
+			path_action_position = path_position;
+			path_end();
 			actionInProgress = true;
 			alarm[1] = pause;
 			script_execute(action, enemy);

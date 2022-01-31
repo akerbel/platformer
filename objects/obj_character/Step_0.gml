@@ -15,4 +15,3 @@ if (hasGravity) {
 	vertical_speed += global.gravity;
 	move_toward_y(self, obj_collision);
 }
-
