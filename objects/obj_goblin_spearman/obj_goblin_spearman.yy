@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_goblin_jumper_idle",
-    "path": "sprites/spr_goblin_jumper_idle/spr_goblin_jumper_idle.yy",
+    "name": "spr_goblin_spearman_idle",
+    "path": "sprites/spr_goblin_spearman_idle/spr_goblin_spearman_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -40,7 +40,7 @@
     "path": "folders/Objects/Character/Enemy/Goblins.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_goblin_jumper",
+  "name": "obj_goblin_spearman",
   "tags": [],
   "resourceType": "GMObject",
 }

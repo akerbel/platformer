@@ -44,7 +44,7 @@
     "spriteId": {"name":"spr_goblin_archer_attack","path":"sprites/spr_goblin_archer_attack/spr_goblin_archer_attack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
