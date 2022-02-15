@@ -12,17 +12,26 @@ function move_toward_y(object){
 	}
 	
 	// Standing on platform
-	if (!object.jump_down &&
-		(object.y < object.y + object.vertical_speed) &&
-		collision_rectangle(
+	if (!object.jump_down && (object.y < object.y + object.vertical_speed)) {
+		
+		var platform = collision_rectangle(
 			object.bbox_left, object.bbox_bottom, 
-			object.bbox_right, object.bbox_bottom + 0.1,
+			object.bbox_right, object.bbox_bottom + object.sprite_height/4,
 			obj_platform,
 			false,
 			true
-		)) {
-		object.isGrounded = true;
-		object.vertical_speed = 0;
+		);
+		
+		if (platform != noone) {
+			object.isGrounded = true;
+			object.onPlatform = true;
+			object.vertical_speed = 0;
+			object.y = platform.bbox_top - object.sprite_height/2;
+			object.x += platform.horizontal_speed;
+		}
+	}
+	else {
+		object.onPlatform = false;
 	}
 	
 	object.y += object.vertical_speed;

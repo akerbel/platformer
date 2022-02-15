@@ -38,10 +38,10 @@ if (state != states.damaged && state != states.attack) {
 		state = states.jump;
 		isGrounded = false;
 	}
-	if (last_y - y > 0.2) {
+	if (!onPlatform && last_y > y) {
 		state = states.jump;
 	}
-	else if (last_y - y < -0.2) {
+	else if (!onPlatform && last_y < y) {
 		state = states.fall;
 	}
 	else if ((isGrounded == true) && !(key_left_pressed || key_right_pressed)) {

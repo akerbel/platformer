@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_goblin_archer_walk","path":"sprites/spr_goblin_archer_walk/spr_goblin_archer_walk.yy",},"order":1,},
+    {"id":{"name":"spr_wooden_platform","path":"sprites/spr_wooden_platform/spr_wooden_platform.yy",},"order":0,},
     {"id":{"name":"spr_goblin_village","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"order":6,},
     {"id":{"name":"tls_forest_objects","path":"tilesets/tls_forest_objects/tls_forest_objects.yy",},"order":4,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
@@ -27,6 +28,7 @@
     {"id":{"name":"obj_goblin_spearman","path":"objects/obj_goblin_spearman/obj_goblin_spearman.yy",},"order":1,},
     {"id":{"name":"spr_wizard_idle","path":"sprites/spr_wizard_idle/spr_wizard_idle.yy",},"order":0,},
     {"id":{"name":"tls_goblin_village","path":"tilesets/tls_goblin_village/tls_goblin_village.yy",},"order":6,},
+    {"id":{"name":"pth_platform_1","path":"paths/pth_platform_1/pth_platform_1.yy",},"order":4,},
     {"id":{"name":"spr_grass_1","path":"sprites/spr_grass_1/spr_grass_1.yy",},"order":4,},
     {"id":{"name":"spr_goblin_archer_attack","path":"sprites/spr_goblin_archer_attack/spr_goblin_archer_attack.yy",},"order":2,},
     {"id":{"name":"spr_goblin_jumper_damaged","path":"sprites/spr_goblin_jumper_damaged/spr_goblin_jumper_damaged.yy",},"order":4,},
@@ -42,7 +44,8 @@
     {"id":{"name":"spr_forest_1","path":"sprites/spr_forest_1/spr_forest_1.yy",},"order":1,},
     {"id":{"name":"spr_wizard_jump","path":"sprites/spr_wizard_jump/spr_wizard_jump.yy",},"order":2,},
     {"id":{"name":"action_jump","path":"scripts/action_jump/action_jump.yy",},"order":2,},
-    {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":5,},
+    {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":0,},
+    {"id":{"name":"obj_wooden_platform","path":"objects/obj_wooden_platform/obj_wooden_platform.yy",},"order":1,},
     {"id":{"name":"spr_goblin_spearman_damaged","path":"sprites/spr_goblin_spearman_damaged/spr_goblin_spearman_damaged.yy",},"order":2,},
     {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"order":2,},
     {"id":{"name":"obj_goblin_archer","path":"objects/obj_goblin_archer/obj_goblin_archer.yy",},"order":0,},
@@ -114,6 +117,8 @@
     {"folderPath":"folders/Sprites/Tiles.yy","order":9,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Character/Goblins/Goblin Spearman.yy","order":2,"resourceVersion":"1.0","name":"Goblin Spearman","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Background.yy","order":10,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Platform.yy","order":6,"resourceVersion":"1.0","name":"Platform","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Platform.yy","order":12,"resourceVersion":"1.0","name":"Platform","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
