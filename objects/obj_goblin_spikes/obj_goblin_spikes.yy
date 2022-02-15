@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_wooden_platform",
-    "path": "sprites/spr_wooden_platform/spr_wooden_platform.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_platform",
-    "path": "objects/obj_platform/obj_platform.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Platform",
-    "path": "folders/Objects/Item/Platform.yy",
+    "name": "Goblins",
+    "path": "folders/Objects/Character/Enemy/Goblins.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wooden_platform",
+  "name": "obj_goblin_spikes",
   "tags": [],
   "resourceType": "GMObject",
 }

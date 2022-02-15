@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (state != states.damaged) {
+if (path != noone && state != states.damaged) {
 	script_execute(behavior, self, action, actionPause);
 }
 

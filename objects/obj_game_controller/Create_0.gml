@@ -10,6 +10,11 @@ enum states {
 	dead
 }
 
+enum trap_states {
+	deactivated,
+	activated
+}
+
 
 global.gravity = 0.2;
 global.lives = 3;

@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_wooden_platform",
-    "path": "sprites/spr_wooden_platform/spr_wooden_platform.yy",
+    "name": "spr_wooden_spike",
+    "path": "sprites/spr_wooden_spike/spr_wooden_spike.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_platform",
-    "path": "objects/obj_platform/obj_platform.yy",
+    "name": "obj_spike",
+    "path": "objects/obj_spike/obj_spike.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Platform",
-    "path": "folders/Objects/Item/Platform.yy",
+    "name": "Spike",
+    "path": "folders/Objects/Item/Spike.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wooden_platform",
+  "name": "obj_wooden_spike",
   "tags": [],
   "resourceType": "GMObject",
 }

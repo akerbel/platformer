@@ -41,7 +41,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Platform",
-    "path": "folders/Objects/Platform.yy",
+    "path": "folders/Objects/Item/Platform.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform",
