@@ -18,7 +18,8 @@ enum trap_states {
 
 global.gravity = 0.2;
 global.lives = 3;
-
+global.max_oxigen = 6000;
+global.oxigen = global.max_oxigen;
 
 global.partSystem = part_system_create();
 part_system_depth(global.partSystem, -100);

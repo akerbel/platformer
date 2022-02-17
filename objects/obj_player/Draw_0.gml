@@ -2,6 +2,14 @@
 
 sprite_index = sprites[state];
 
-draw_self();
+if (state == states.damaged) {
+	if (step % 2 == 1) {
+		draw_self();
+	}
+}
 
-//draw_text(x, y, string(isGrounded));
+else {
+	draw_self();
+}
+
+//draw_text(x, y, string(jump_down));

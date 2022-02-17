@@ -14,8 +14,14 @@ if (state != states.damaged && state != states.attack) {
 	if (key_left_pressed || key_right_pressed) {
 		//horizontal_speed = speed_walk * (key_left_pressed ? -1 : 1);
 		horizontal_speed += horizontal_acceleration * (key_left_pressed ? -1 : 1);
-		if (abs(horizontal_speed) >= abs(speed_walk)) {
-			horizontal_speed = speed_walk * (key_left_pressed ? -1 : 1);
+		if (environment != noone) {
+			var speed_walk_modificated = speed_walk + environment.horizontal_speed_mod; 
+		}
+		else {
+			var speed_walk_modificated = speed_walk;
+		}
+		if (abs(horizontal_speed) >= abs(speed_walk_modificated)) {
+			horizontal_speed = speed_walk_modificated * (key_left_pressed ? -1 : 1);
 		}
 
 		direction = (key_left_pressed ? 180 : 0);
@@ -31,9 +37,6 @@ if (state != states.damaged && state != states.attack) {
 			vertical_speed = -speed_jump;
 			jump_down = false;
 		}
-		else {
-			jump_down = true;
-		}
 		
 		state = states.jump;
 		isGrounded = false;
@@ -48,6 +51,14 @@ if (state != states.damaged && state != states.attack) {
 		state = states.idle;
 	}
 	last_y = y;
+	
+	// Jumping down from platform
+	if (key_down_pressed) {
+		jump_down = true;
+	}
+	else {
+		jump_down = false;
+	}
 	
 	// Attacking
 	if (key_attack_pressed) {
@@ -88,4 +99,13 @@ if (state = states.attack) {
 	}
 }
 
-
+// Underwater
+if (environment != noone) {
+	global.oxigen += environment.oxigen_mod;
+}
+else if global.oxigen < global.max_oxigen {
+	global.oxigen += 5;
+}
+else if global.oxigen > global.max_oxigen {
+	global.oxigen = global.max_oxigen;
+}
