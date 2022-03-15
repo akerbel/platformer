@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Throwable",
-    "path": "folders/Objects/Item/Throwable.yy",
+    "path": "folders/Objects/Thing/Throwable.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_throwable",

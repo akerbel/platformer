@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goblin_jumper_jump","path":"sprites/spr_goblin_jumper_jump/spr_goblin_jumper_jump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goblin_jumper_jump",
     "tags": [],
     "resourceType": "GMSequence",

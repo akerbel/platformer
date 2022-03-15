@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 351,
   "bbox_top": 0,
-  "bbox_bottom": 95,
+  "bbox_bottom": 143,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 352,
-  "height": 96,
+  "height": 144,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b2513e68-cffc-4598-a238-322d3d5baed7","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2513e68-cffc-4598-a238-322d3d5baed7","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"LayerId":{"name":"af0257d5-79ca-4319-9412-3fbf4a430137","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goblin_village","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"resourceVersion":"1.0","name":"b2513e68-cffc-4598-a238-322d3d5baed7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"23b3c730-2deb-4fda-bb02-d97bb4367290","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"23b3c730-2deb-4fda-bb02-d97bb4367290","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"LayerId":{"name":"808553d8-72f7-4e46-8f32-8b7281d81751","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_goblin_village","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"resourceVersion":"1.0","name":"23b3c730-2deb-4fda-bb02-d97bb4367290","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_goblin_village","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a042fded-5c7a-430b-896b-3a7fb5ca50c7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2513e68-cffc-4598-a238-322d3d5baed7","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"05141603-c955-43fc-9815-4df6fd7eef25","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"23b3c730-2deb-4fda-bb02-d97bb4367290","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,13 +59,13 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goblin_village","path":"sprites/spr_goblin_village/spr_goblin_village.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goblin_village",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"af0257d5-79ca-4319-9412-3fbf4a430137","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"808553d8-72f7-4e46-8f32-8b7281d81751","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goblin_archer_idle","path":"sprites/spr_goblin_archer_idle/spr_goblin_archer_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goblin_archer_idle",
     "tags": [],
     "resourceType": "GMSequence",

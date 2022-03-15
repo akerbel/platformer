@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_blob_small_damaged","path":"sprites/spr_blob_small_damaged/spr_blob_small_damaged.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_blob_small_damaged",
     "tags": [],
     "resourceType": "GMSequence",

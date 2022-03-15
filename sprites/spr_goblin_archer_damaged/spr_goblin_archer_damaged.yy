@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goblin_archer_damaged","path":"sprites/spr_goblin_archer_damaged/spr_goblin_archer_damaged.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goblin_archer_damaged",
     "tags": [],
     "resourceType": "GMSequence",

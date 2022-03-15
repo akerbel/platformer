@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_blob_small_idle","path":"sprites/spr_blob_small_idle/spr_blob_small_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_blob_small_idle",
     "tags": [],
     "resourceType": "GMSequence",

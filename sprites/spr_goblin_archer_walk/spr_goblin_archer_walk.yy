@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goblin_archer_walk","path":"sprites/spr_goblin_archer_walk/spr_goblin_archer_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goblin_archer_walk",
     "tags": [],
     "resourceType": "GMSequence",

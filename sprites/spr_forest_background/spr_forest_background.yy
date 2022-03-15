@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_forest_background","path":"sprites/spr_forest_background/spr_forest_background.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_forest_background",
     "tags": [],
     "resourceType": "GMSequence",

@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_blob_small_walk","path":"sprites/spr_blob_small_walk/spr_blob_small_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_blob_small_walk",
     "tags": [],
     "resourceType": "GMSequence",

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Spike",
-    "path": "folders/Objects/Item/Spike.yy",
+    "path": "folders/Objects/Thing/Spike.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_spike",

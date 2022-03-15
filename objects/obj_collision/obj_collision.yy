@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Trigger",
+    "path": "folders/Objects/Trigger.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_collision",

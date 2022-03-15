@@ -2,17 +2,17 @@
 
 event_inherited();
 
-key_left_pressed = keyboard_check(ord("A"));
-key_right_pressed = keyboard_check(ord("D"));
-key_down_pressed = keyboard_check(ord("S"));
-key_jump_pressed = keyboard_check_pressed(vk_space);
-key_attack_pressed = keyboard_check_pressed(ord("F"));
+key_left_pressed =  keyboard_check(get_key_left());
+key_right_pressed = keyboard_check(get_key_right());
+key_down_pressed = keyboard_check(get_key_down());
+key_jump_pressed = keyboard_check_pressed(get_key_jump());
+key_attack_pressed = keyboard_check_pressed(get_key_attack());
 
 if (state != states.damaged && state != states.attack) {
 
 	// Moving
 	if (key_left_pressed || key_right_pressed) {
-		//horizontal_speed = speed_walk * (key_left_pressed ? -1 : 1);
+		
 		horizontal_speed += horizontal_acceleration * (key_left_pressed ? -1 : 1);
 		if (environment != noone) {
 			var speed_walk_modificated = speed_walk + environment.horizontal_speed_mod; 
@@ -78,7 +78,7 @@ if (!key_left_pressed && !key_right_pressed) {
 }
 
 // Attacking
-if (state = states.attack) {
+if (state == states.attack) {
 	var enemy = collision_rectangle(
 		x, y - sprite_height/2, 
 		x + (16/2 + weapon_distance) * image_xscale, y + sprite_height/2,
