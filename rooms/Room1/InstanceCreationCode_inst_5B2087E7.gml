@@ -1,0 +1,16 @@
+ds_list_add(items, obj_double_jump_boots);
+ds_list_add(items, obj_health_potion);
+ds_list_add(items, obj_test_item_1);
+ds_list_add(items, obj_test_item_2);
+ds_list_add(items, obj_test_item_3);
+ds_list_add(items, obj_test_item_4);
+ds_list_add(items, obj_test_item_5);
+ds_list_add(items, obj_test_item_6);
+ds_list_add(items, obj_test_item_7);
+ds_list_add(items, obj_test_item_8);
+ds_list_add(items, obj_test_item_9);
+ds_list_add(items, obj_test_item_10);
+ds_list_add(items, obj_test_item_11);
+ds_list_add(items, obj_test_item_12);
+ds_list_add(items, obj_test_item_13);
+ds_list_add(items, obj_test_item_14);

@@ -1,5 +1,8 @@
 /// @description
 
-add_to_inventory(self);
+if (isGrounded == true) {
+	add_to_inventory(self);
 
-instance_destroy();
+	instance_destroy();
+}
+

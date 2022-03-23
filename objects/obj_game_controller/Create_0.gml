@@ -15,6 +15,11 @@ enum trap_states {
 	activated
 }
 
+enum container_states {
+	closed,
+	opened
+}
+
 
 global.gravity = 0.2;
 global.lives = 3;

@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Item",
-    "path": "folders/Objects/Thing/Item.yy",
+    "name": "Consumable",
+    "path": "folders/Objects/Thing/Item/Consumable.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_test_item_2",

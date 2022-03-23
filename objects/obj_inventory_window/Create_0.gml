@@ -24,7 +24,8 @@ slot_height = sprite_get_height(slot_sprite);
 slot_width = sprite_get_width(slot_sprite);
 
 //slot_max = height div (slot_height + slot_padding);
-slot_max = 10;
+slot_max = 12;
+slot_row_max = 4;
 // Find the first and the last item, visible on the first inventory "screen".
 first_item = ds_map_find_first(inventory);
 last_item = first_item;

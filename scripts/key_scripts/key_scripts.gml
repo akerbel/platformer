@@ -22,6 +22,10 @@ function get_key_attack() {
 	return ord("F");
 }
 
+function get_key_use() {
+	return ord("E");
+}
+
 function get_key_inventory(){
 	return ord("I");
 }

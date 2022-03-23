@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_health_potion",
-    "path": "sprites/spr_health_potion/spr_health_potion.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_item",
-    "path": "objects/obj_item/obj_item.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":1,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Consumable",
-    "path": "folders/Objects/Thing/Item/Consumable.yy",
+    "name": "Thing",
+    "path": "folders/Objects/Thing.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_test_item_1",
+  "name": "obj_usable",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -9,13 +9,17 @@ var item;
 var item_name = "";
 var i = 1;
 
+draw_set_font(fnt_font_1);
+
 draw_sprite(button_up_sprite, is_undefined(ds_map_find_previous(inventory, first_item)), xx, yy);
 yy += sprite_get_height(button_up_sprite) + ceil(slot_height / 2);
 
 for (var k = first_item; !is_undefined(k); k = ds_map_find_next(inventory, k)) {
 	item = inventory[? k];
-	draw_sprite(slot_sprite, 0, xx, yy);
-	draw_sprite(item.sprite_index, 0, xx, yy);
+	var xx_mod = ((i - 1) mod slot_row_max) * (slot_height + slot_padding);
+	var yy_mod = ((i - 1) div slot_row_max) * (slot_height + slot_padding);
+	draw_sprite(slot_sprite, 0, xx + xx_mod, yy + yy_mod);
+	draw_sprite(item.sprite_index, 0, xx + xx_mod, yy + yy_mod);
 	
 	if (item.count > 1) {
 		item_name = "(" + string(item.count) + ") " + item.name;
@@ -23,14 +27,14 @@ for (var k = first_item; !is_undefined(k); k = ds_map_find_next(inventory, k)) {
 	else {
 		item_name = item.name;
 	}
-	draw_text(xx + slot_width + slot_padding, yy - ceil(slot_height / 2), item_name);
+	//draw_text(xx + slot_width + slot_padding, yy - ceil(slot_height / 2), item_name);
 	
 	// Cursor
 	if (inventory_cursor_pos == k) {
-		draw_sprite(inventory_cursor_sprite, 0, xx, yy);
+		draw_sprite(inventory_cursor_sprite, 0, xx + xx_mod, yy + yy_mod);
 	}
 	
-	yy += slot_height + slot_padding;
+	//yy += slot_height + slot_padding;
 	i++;
 	if (i > slot_max) {
 		break;
