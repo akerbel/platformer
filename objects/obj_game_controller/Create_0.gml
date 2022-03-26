@@ -37,5 +37,10 @@ part_type_color2(_p, c_white, c_grey);
 part_type_size(_p, 0.01, 0.05, 0.005, 0);
 part_type_speed(_p, 0.1, 0.2, 0.001, 0);
 part_type_direction(_p, 90, 180, 0, 0);
-
 global.ptSmoke = _p;
+
+var _spark = part_type_create();
+part_type_sprite(_spark, spr_spark, true, true, false);
+part_type_life(_spark, room_speed, room_speed);
+//part_type_speed(_spark, 1, 1, 0, 0);
+global.ptSpark = _spark;

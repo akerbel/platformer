@@ -1,0 +1,1 @@
+for (var i = 0; i < 10; i++) ds_list_add(items, obj_coin);

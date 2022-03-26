@@ -4,6 +4,10 @@ var text = ds_map_create();
 
 text[? "inventory"] = "Inventory";
 
+text[? "obj_coin"] = ds_map_create();
+text[? "obj_coin"][? "name"] = "Coin";
+text[? "obj_coin"][? "description"] = "You can buy something";
+
 text[? "obj_health_potion"] = ds_map_create();
 text[? "obj_health_potion"][? "name"] = "Health Potion";
 text[? "obj_health_potion"][? "description"] = "Restores your health";
