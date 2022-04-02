@@ -41,16 +41,16 @@ if (state != states.damaged && state != states.attack) {
 		state = states.jump;
 		isGrounded = false;
 	}
-	if (!onPlatform && last_y > y) {
+	if (!onPlatform && yprevious > y) {
 		state = states.jump;
 	}
-	else if (!onPlatform && last_y < y) {
+	else if (!onPlatform && yprevious < y) {
 		state = states.fall;
 	}
 	else if ((isGrounded == true) && !(key_left_pressed || key_right_pressed)) {
 		state = states.idle;
 	}
-	last_y = y;
+
 	
 	// Jumping down from platform
 	if (key_down_pressed) {

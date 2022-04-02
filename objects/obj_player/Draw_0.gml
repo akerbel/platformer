@@ -12,6 +12,6 @@ else {
 	draw_self();
 }
 
-//draw_text(x, y, string(jump_down));
+draw_text(x, y, string(x));
 
 //show_debug_message( view_get_wport(0));

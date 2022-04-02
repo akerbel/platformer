@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_dirt",
-    "path": "sprites/spr_dirt/spr_dirt.yy",
+    "name": "spr_collisions",
+    "path": "sprites/spr_collisions/spr_collisions.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
@@ -16,8 +16,8 @@
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
-  "out_columns": 1,
-  "tile_count": 2,
+  "out_columns": 2,
+  "tile_count": 4,
   "autoTileSets": [],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -25,6 +25,8 @@
     "FrameData": [
       0,
       1,
+      2,
+      3,
     ],
     "SerialiseFrameCount": 1,
   },
@@ -38,7 +40,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tls_dirt",
+  "name": "tls_collisions",
   "tags": [],
   "resourceType": "GMTileSet",
 }

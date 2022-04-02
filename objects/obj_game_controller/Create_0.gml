@@ -20,6 +20,7 @@ enum container_states {
 	opened
 }
 
+#macro tile_size 16
 
 global.gravity = 0.2;
 global.lives = 3;
